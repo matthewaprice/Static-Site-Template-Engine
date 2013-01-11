@@ -26,7 +26,7 @@
         </div><!--/span-->
         <div class="span9">
           <div class="hero-unit">
-            <h1>About Page</h1>
+            <h1>Contact Page</h1>
             <p>This is a template for the contact page</p>
           </div>
         </div><!--/span-->

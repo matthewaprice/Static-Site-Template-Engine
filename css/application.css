@@ -1,0 +1,142 @@
+html {
+	overflow-y: scroll;
+}
+body {
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 960px;
+}
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+.masthead {
+	margin-bottom: 0;
+}
+.masthead .navbar {
+	margin: 0;
+	padding: 0;
+}
+.masthead .navbar-inner {
+	background: none;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+.masthead .brand {
+	font-weight: bold;
+}
+.masthead .nav {
+	margin-top: 10px;
+}
+.masthead .nav li a {
+	color: #6a6a6a;
+	padding: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	text-shadow: none;
+}
+.masthead .nav li a:hover {
+	color: #333;
+	background: none;
+}
+.masthead .nav li.active a,
+.masthead .nav li.active a:hover {
+	background: url(../img/black-hatch.png);
+	color: #b3b3b3;
+	border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;	
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+}
+.jumbotron h1 {
+	font-size: 72px;
+	line-height: 1;
+	color: #b3b3b3;
+}
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+.jumbotron .lead {
+	color: #a1a1a1;
+}
+
+/* Supporting marketing content */
+#marketing-container {
+	background: url(../img/pg-bg.png);
+}
+.marketing {
+	margin: 60px 0;
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+
+#jumbotron-container {
+	background: url(../img/black-hatch.png);
+}
+
+#footer {
+	margin-top: 25px;
+	font-size: 10px; 
+	text-transform: uppercase;
+}
+
+.modal-header .btn {
+	float: right;
+}
+.modal-footer {
+	text-align: left;
+}
+.modal-footer p {
+	display: none;
+}
+.modal-footer p.active {
+	display: block;
+}
+
+.page-title {
+	background: url(../img/black-hatch.png);
+	color: #b3b3b3;
+	padding: 15px 10px;
+	margin: 0 0 25px 0;
+}	
+.page-title span {
+	display: block;
+	max-width: 960px;
+	margin: auto;
+}
+.thumbnails li p {
+	color: #18648f;
+	background: #c1e8ff;
+	padding: 3px 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 10px;
+	border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+}
+.thumbnails li {
+	text-align: center;
+}
+
+.thumbnails li .thumbnail:hover {
+	border: 1px solid #18648f;
+}
+.thumbnails img {
+	margin-bottom: 15px;
+	cursor: pointer;
+}
